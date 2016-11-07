@@ -1,7 +1,8 @@
 {
   "name": "aubrey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extremely dodgy script for producing .nsprc files for a project.",
+  "preferGlobal": true,
   "main": "aubrey.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
