@@ -1,0 +1,18 @@
+{
+  "name": "aubrey",
+  "version": "1.0.0",
+  "description": "An extremely dodgy script for producing .nsprc files for a project.",
+  "main": "aubrey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nsp"
+  ],
+  "author": "Aiden Keating <akeating@redhat.com>",
+  "license": "MIT",
+  "dependencies": {
+    "child-process-promise": "^2.2.0",
+    "lodash": "^4.16.6"
+  }
+}
