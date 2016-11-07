@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 const exec = require('child-process-promise').exec;
@@ -49,5 +51,8 @@ listVulnerabilities()
       const parsedVulnerabilities = parseVulnerabilities(parsedResult);
 
       return writeVulnerabilityReport(parsedVulnerabilities);
+    } else {
+      console.log('You have no vulnerabilities');
+      process.exit(0);
     }
   });
